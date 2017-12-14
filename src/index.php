@@ -23,6 +23,7 @@
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
+phpinfo();
                 ?>
 
             </div>
