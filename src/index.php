@@ -25,7 +25,7 @@
                         fclose($myfile);
 phpinfo();
                 ?>
-
+test
             </div>
         </div>
 
